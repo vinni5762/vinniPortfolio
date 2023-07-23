@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:ital,wght@0,100;1,100&family=Roboto+Condensed:wght@300&display=swap');
 
 *{
-   /* font-family: 'Lumanosimo', cursive;
+    font-family: 'Lumanosimo', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 .bannerBgImage {
     height: 100vh;
     background: url("./images/bannerImage.jpg");
-    background-size: 100% ;
+    background-size: 70% ;
     position: relative;
 
 }
