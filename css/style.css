@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:ital,wght@0,100;1,100&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+   /* font-family: 'Lumanosimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("/images/bannerImage.jpg");
+    background-size: cover ;
+    position: relative;
+
+}
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+
+}
+.bannerTitle {
+    font-size: 4rem;
+
+}
+.bannerDesc {
+    font-size: 2rem;
+}
+.card {
+    cursor:pointer;
+
+}
+.card:hover {
+    background-color: palevioletred;
+    border:3px solid yellowgreen;
+}
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+}
+.img-fluid:hover {
+    border:3px solid yellowgreen;
+}
+.card-img-top {
+    height: 50vh;
+}
